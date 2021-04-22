@@ -1,0 +1,187 @@
+/* color 
+Noir : #222222
+Gris : #444444
+Vert : #0AA8A7
+Vert clair : #EDF6F5 */
+
+/* POLICE */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* HEADER */
+
+header {
+    height: 100px;
+    width: 100%;
+    margin: 0 auto 20px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#logo{
+        padding-left: 30px;
+        width: 220px;
+}
+
+.iconeh {
+    color: #444444;
+    width: 60px;
+    height: 30px;
+    max-height: 30px;
+    margin: 0px 10px 0 0;
+    display: block;
+    padding-right: 5px;
+
+}
+
+/* FOOTER */
+footer{
+    background-color:#EDF6F5 ;
+    display: flex;
+    flex-wrap: wrap;
+}
+.boxfooter{
+    width: 50%;
+
+}
+.boxfooter2{
+    width: 50%;
+    padding: 25px 0px;
+}
+
+.réseau{
+    display: flex;
+    flex-wrap: wrap;
+}
+.iconef{
+    width: 15%;
+    padding-right: 10px;
+}
+.textf{
+    text-align: left;
+}
+.textfoo{
+    text-align: left;
+    margin: 10px 15px 10px 15px;
+}
+
+/* TEXTE */
+
+h1{
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+h2{
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    margin-top: 40px;
+}
+h3{
+    font-family: 'Lato', sans-serif;
+    text-align: center; 
+}
+h4{
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+    margin: 20px auto;
+}
+p{
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    margin: 15px auto;
+    color: #444;
+    font-weight: 400;
+}
+.text{
+    text-align: left;
+    margin: 20px 15px;
+}
+.check{
+    text-align: left;
+    margin: 20px 15px;
+    color: #0AA8A7;
+    font-weight: 600;
+}
+
+/* BOX */
+
+.box{
+    padding: 0px 20px;
+    margin: 20px auto;
+}
+
+.bigbox{
+    background-color: #EDF6F5;
+    padding: 10px 20px 30px 20px;
+}
+.littlebox{
+    padding: 20px 20px;
+    margin: 20px auto;
+    background-color: white;
+    border-radius: 15px;
+    align-items: center;
+}
+.divcontact{
+    padding: 10px 20px 30px 20px;
+}
+
+.contactus{
+    padding: 20px 20px;
+    margin: 20px auto;
+    background-color:#EDF6F5;
+    border-radius: 15px;
+    align-items: center;
+    box-shadow: 0px 10px 20px rgba(128, 128, 128, 0.158);
+}
+.service{
+    padding: 10px 20px 30px 20px;
+}
+
+/* BOUTON */
+
+.cta{
+    display: block;
+    align-items: center;
+    background-color: #0AA8A7;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    width: 200px;
+    height: 7vh;
+    font-size: 20px;
+    margin: 0 auto;
+
+}
+
+/* image */
+
+.illu{
+    max-width: 100%;
+    padding-top: 30px;
+    display: block;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.icone{
+display: block;
+align-items: center;
+margin: 0 auto;
+padding-bottom: 10px;
+width: 40px;
+}
+
+hr{
+    width: 80%;
+    margin: 0 auto;
+}
